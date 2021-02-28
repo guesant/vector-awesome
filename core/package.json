@@ -1,0 +1,12 @@
+{
+  "name": "@guesant/vector-awesome",
+  "version": "0.0.0",
+  "description": "biblioteca para mainpulação e cálculo de gráficos e objetos 2d",
+  "main": "dist/index.js",
+  "repository": "https://github.com/guesant/vector-awesome.git",
+  "author": "Gabriel Rodrigues <jipacoding@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
