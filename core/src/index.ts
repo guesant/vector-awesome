@@ -1,3 +1,4 @@
+export * as Box from "./Box";
 export * from "./etc";
 export * from "./IBoxPointCoordinate";
 export * from "./IBoxPointMode";
