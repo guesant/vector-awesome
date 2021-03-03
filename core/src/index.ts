@@ -1,4 +1,5 @@
 export * from "./etc";
+export * from "./IBoxPointCoordinate";
 export * from "./IBoxPointMode";
 export * from "./IObject";
 export * from "./IPointTuple";
