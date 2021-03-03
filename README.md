@@ -23,7 +23,7 @@ console.log(Point.getX([10, 20])); // 10
 
 ## Documentação
 
-Veja a [Documentação](https://guesant.github.io/vector-awesome/modules) dos modulos exportados.
+Veja a [Documentação](https://guesant.github.io/vector-awesome/modules.html) dos modulos exportados.
 
 ## Desenvolvimento
 
