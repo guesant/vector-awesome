@@ -7,7 +7,10 @@
   "author": "Gabriel Rodrigues <jipacoding@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "docs": "typedoc --out ../docs src/index.ts",
+    "start": "tsc -p . --watch",
+    "build": "rm -rf dist docs; tsc -p . && npm run docs"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
@@ -16,6 +19,7 @@
     "@types/jest": "^26.0.20",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.2",
+    "typedoc": "^0.20.28"
   }
 }
