@@ -1,0 +1,1 @@
+window.searchData = {"kinds":{"4194304":"Type alias"},"rows":[{"id":0,"kind":4194304,"name":"IPointTuple","url":"modules.html#ipointtuple","classes":"tsd-kind-type-alias"}],"index":{"version":"2.3.9","fields":["name","parent"],"fieldVectors":[["name/0",[0,2.877]],["parent/0",[]]],"invertedIndex":[["ipointtuple",{"_index":0,"name":{"0":{}},"parent":{}}]],"pipeline":[]}}
