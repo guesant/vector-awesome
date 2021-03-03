@@ -10,7 +10,7 @@
     "test": "jest",
     "docs": "typedoc --out ../docs src/index.ts",
     "start": "tsc -p . --watch",
-    "build": "rm -rf dist docs; tsc -p . && npm run docs"
+    "build": "rm -rf dist ../docs; tsc -p . && npm run docs"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
