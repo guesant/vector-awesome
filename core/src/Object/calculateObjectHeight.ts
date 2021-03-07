@@ -1,4 +1,4 @@
-import { IObject } from "../IObject";
+import { calculateObjectSize } from "./calculateObjectSize";
 
 /**
  * Compute the real object height by multiplying
@@ -9,5 +9,4 @@ import { IObject } from "../IObject";
  * ```
  */
 
-export const calculateObjectHeight = (object: IObject) =>
-  (object.height ?? 0) * (object.scaleY ?? 1);
+export const calculateObjectHeight = calculateObjectSize("height");

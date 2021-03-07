@@ -1,5 +1,10 @@
+import { calculateObjectSize } from "../calculateObjectSize";
 import { calculateObjectWidth } from "../calculateObjectWidth";
 
+const exampleObject = { width: 4, scaleX: 2 };
+
 test("calculateObjectWidth", () => {
-  expect(calculateObjectWidth({ width: 4, scaleX: 2 } as any)).toBe(8);
+  const width = calculateObjectWidth(exampleObject as any);
+  expect(width).toBe(8);
+  expect(width).toBe(calculateObjectSize("width")(exampleObject as any));
 });

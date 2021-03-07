@@ -1,4 +1,4 @@
-import { IObject } from "../IObject";
+import { calculateObjectSize } from "./calculateObjectSize";
 
 /**
  * Compute the real object width by multiplying
@@ -9,5 +9,4 @@ import { IObject } from "../IObject";
  * ```
  */
 
-export const calculateObjectWidth = (object: IObject) =>
-  (object.width ?? 0) * (object.scaleX ?? 1);
+export const calculateObjectWidth = calculateObjectSize("width");
