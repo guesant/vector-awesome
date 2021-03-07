@@ -27,7 +27,7 @@ Veja a [Documentação](https://guesant.github.io/vector-awesome/modules.html) d
 
 ## Desenvolvimento
 
-```
+```sh
 git clone https://github.com/guesant/vector-awesome.git
 cd vector-awesome
 pnpm install
@@ -36,7 +36,7 @@ git checkout -b "new-feature"
 
 - Faça as modificações necessárias
 
-```
+```sh
 git add -A
 git commit -m "feat: nova feature"
 git remote add fork https://github.com/user/url-do-fork.git
